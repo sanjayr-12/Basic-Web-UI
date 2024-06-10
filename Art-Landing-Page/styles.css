@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+/* font-family: "Montserrat", sans-serif; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffe5ca;
+  margin: 1rem;
+}
+
+html {
+  font-family: "Montserrat", sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  /* margin-bottom: 5rem; */
+  padding: 20px;
+}
+
+nav ul {
+  margin-left: 5rem;
+  list-style: none;
+}
+
+li a {
+  text-decoration: none;
+  color: black;
+}
+
+nav .burger {
+  margin-right: 5rem;
+  cursor: pointer;
+}
+
+header {
+  margin: 3rem 6rem;
+  
+}
+
+.main-headings {
+  width: 50%;
+  font-weight: 600;
+}
+
+.child-headings {
+  width: 50%;
+  margin-top: 15px;
+  font-size: 1.5rem;
+  line-height: 30px;
+}
+
+main img {
+  width: 500px;
+  height: 500px;
+  margin: 10px;
+}
+
+main {
+  margin: 0 4rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+footer {
+  margin-top: 4rem;
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.9rem;
+  height: 15vh;
+
+}
+
+.author {
+  font-weight: 300;
+  font-size: 1.2rem;
+   margin-left: 10pc;
+   margin-top: 10px;
+}
